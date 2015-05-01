@@ -2,3 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 When I initialize a repository it is created a hidden Git directory, i.e., It is created a good place where my project
 will be trucked, in other words I enable Git to be able to truck my files. 
 I need to do it because Git starts that way, it is the first step to make possible the file trucking.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is between working directory and the repository, is a previous step before the repository, it allows
+to truck these files that will be committed together, to "keep on sight" the files for the next commit, it remembers you what you pretend
+to do.  
