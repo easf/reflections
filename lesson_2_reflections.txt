@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+When I initialize a repository it is created a hidden Git directory, i.e., It is created a good place where my project
+will be trucked, in other words I enable Git to be able to truck my files. 
+I need to do it because Git starts that way, it is the first step to make possible the file trucking.
