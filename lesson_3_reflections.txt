@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When I'm working on the same project with other people.
+When my work is very important or critical.
+When I need data ubiquity to access to my documents from any place and any moment.
