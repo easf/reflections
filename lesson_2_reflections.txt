@@ -11,3 +11,35 @@ to do.
 How can you use the staging area to make sure you have one commit per logical change?
 I can use as a bag where I put all files related to one logical change because could be more than one file per logical change. It allows the
 chance of continue adding files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+With some projects that have multiple versions because the product will run on several platforms, or when we want to experiment 
+with new features or with important modifications, branches would help to clarify all this situations and get an easy recognition 
+of each of them. Also, it is the possibility to come and go between branches, and between versions of each branch.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help me to understand what commits are unreachable, to visualize clearly the respective commits that 
+conform each branch, to visualize where a branch begins, to determine which commit is the first for a certain branch, 
+to visualize the parental relations between commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Considering this: You have branch1 checked out and then run "git merge branch1 branch2", the result is a new greater 
+branch (named branch1 in this case) made by a "huge commit" where all the commits of branch2 are added to the branch1 ones. 
+We represent it in the diagram the way we do because this way is easier to understand visualizing graphically what happen with 
+the commits, for example the ones which are added, the ones which are kept, from the former ones to the latter ones.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging:
+    Pros:
+        - If it is some machine learning method that can resolve the merging problems for you, automatic merging would be great!.
+    Cons:
+        - Improvement code or important logic issues may be lost or may suffer erroneous modifications. 
+
+Always doing merges manually
+    Pros: 
+        - It Is a safer method, you can always verify what exactly are the problems and you can solve them in a convenient way.
+        - It is easy to make mistakes or have mismatches, and this method allows you to "recover quickly".
+    Cons:
+        - For say one, it represents more work ;).
+
+
