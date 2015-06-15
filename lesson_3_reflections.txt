@@ -5,3 +5,11 @@ When I need data ubiquity to access to my documents from any place and any momen
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because nobody will choose better than me the moment and branch that I need to pull, it is safer and more organized.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is possible only inside GitHub (I use would it when I'll want to get, to my GitHub account, other's content that is in 
+GitHub, probably, to modify it ), is GitHub clone only. 
+Clone is possible inside a local repository and between remote and local repository (remote -> local)
+(I would it use when I'll want to copy a repository to local repository, to work in my great computer). 
+Branch is possible only inside a repository, not between different repositories.
+(I use would it when I'll need to get, for example, different versions of my project or add new features)
