@@ -13,3 +13,7 @@ Clone is possible inside a local repository and between remote and local reposit
 (I would it use when I'll want to copy a repository to local repository, to work in my great computer). 
 Branch is possible only inside a repository, not between different repositories.
 (I use would it when I'll need to get, for example, different versions of my project or add new features)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is the opportunity to resolve conflicts that arise when the modifications that I have introduced collide with 
+my co-worker's modifications.
