@@ -17,3 +17,13 @@ Branch is possible only inside a repository, not between different repositories.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is the opportunity to resolve conflicts that arise when the modifications that I have introduced collide with 
 my co-worker's modifications.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use a cloud repository like Google Drive, Dropbox or Onedrive. It would be easier, a priori, the files and directories management
+since it would be traditional management: No new functions (like git clone, add, commit, push, pull, etc.) or new interactions methods 
+to learn.
+Would be harder to go fast, for example, because the round robin scheduling to write the same file, the inability to develop in parallel and 
+then have the possibility to merge properly the different versions.
+It would harder to follow the changes history of the work. When occurs something unexpected it would be harder to recovery previous 
+states and it would be harder to find the errors. It would be harder to identify the changes that introduce other people. It would be 
+harder to identify and to fix conflicts. 
