@@ -23,7 +23,26 @@ I would use a cloud repository like Google Drive, Dropbox or Onedrive. It would 
 since it would be traditional management: No new functions (like git clone, add, commit, push, pull, etc.) or new interactions methods 
 to learn.
 Would be harder to go fast, for example, because the round robin scheduling to write the same file, the inability to develop in parallel and 
-then have the possibility to merge properly the different versions.
-It would harder to follow the changes history of the work. When occurs something unexpected it would be harder to recovery previous 
-states and it would be harder to find the errors. It would be harder to identify the changes that introduce other people. It would be 
-harder to identify and to fix conflicts. 
+then, later, have the possibility to merge properly the different versions.
+It would harder to follow the changes history of the work. 
+When occurs something unexpected it would be harder to recovery previous states and it would be harder to find the errors. 
+It would be harder to identify the changes that introduce other people. 
+It would be harder to identify and to fix conflicts.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I want to add a critical feature on my project, a feature that requires a lot of modifications. 
+When a I need a different versions if my work. 
+When several people need to work on different areas(features, levels, layers, etc.) of the project.
+Benefits:
+    On Separate branch:
+        - Protect the working version of the project. 
+        - Develop new features "safely". 
+        - Several people can work in parallel.
+        - You can get a more efficient way of work.
+        - You can develop several version of you project in a efficient way.
+    Just on master:
+        - Good for short works.
+        - Changes are added "automatically".
+        - Probably this situation force you to be more careful and cautious (at least it should be so :P) because the project 
+        recovery chances decrease :(.
+        
